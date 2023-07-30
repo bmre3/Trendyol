@@ -1,0 +1,278 @@
+img{
+  max-width: 100%;
+}
+/* Baslik bölümü */
+
+.baslik-1 .nav-item .nav-link{
+  color: #999;
+  font-size: 12px;
+}
+
+.baslik-1 .nav-item .nav-link:hover{
+  color: black;
+}
+
+/* Header bölümü */
+
+.col-5 input{
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+  background-color: rgb(238, 234, 234);
+  border: none;
+  padding: 1rem;
+}
+
+.search input:focus{
+  border: 2px solid #f27a1a;
+  border-radius: 6px;
+  outline: none;
+}
+
+.main ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;   
+}
+
+.main ul li{
+  padding: 1rem;
+  position: relative;
+}
+
+.main ul li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main ul li a:hover{
+  color: #f27a1a;
+}
+
+.main ul li:hover ul{
+  display: block;
+}
+
+.main ul li ul{
+  display: none;
+  position: absolute;
+  top: 3rem;
+}
+
+.subnav{
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  width: 140%;
+  right: 0.5rem;
+  line-height: 1px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.topbtn{
+  width: 90%;
+  border: none;
+  background-color:#f27a1a ;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.botbtn{
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  font-size: 14px;
+}
+
+/* HEADERBOT */
+
+.bold{
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.menu .nav .bold:hover{
+  color: #f27a1a;
+  border-bottom: 2px solid #f27a1a ;
+}
+
+.menu li:hover .dropnav{
+  opacity: 1;
+  visibility: visible;
+}
+
+.bold-2{
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.menu .nav li a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.menu .nav li a:hover{
+  color: #f27a1a;
+}
+
+.menu{
+  position: relative;
+}
+
+
+.nav .dropnav{
+  position: absolute;
+  width: 100%;
+  left: 0; 
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropnav .icerik{
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+  padding: 15px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row .mega-link li{
+  padding: 2px;
+}
+
+.row .mega-link li a{
+  display: block;
+}
+
+.navspan{
+  background-color: #dc2e2e;
+  border-radius: 6px;
+}
+
+/* Kart */
+
+.cardbtn{
+  width: 100%;
+}
+
+.cardbtn::after{
+  content: "Alışverişe Başla";
+  visibility: hidden;
+}
+
+.bot{
+  background-color: black;
+}
+
+.bot:hover{
+  background-color: #f27a1a;
+  transition: 0.6s;
+}
+
+.bot:hover .cardbtn::after{
+  visibility: visible;
+  margin-left: 3rem;
+}
+
+/* Section2 */
+
+.yazi p{
+  font-size: 14px;
+}
+
+/* Section3 */
+
+.top-footer p{
+  font-size: 12px;
+}
+
+/* footer */
+
+footer{
+  background-color: black;
+  height: 52vh;
+}
+
+.footerleft img{
+  width: 50px;
+  margin-top: 1rem;
+}
+
+footer ul li{
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+.footercenter img{
+  width: 150px;
+  margin-top: 1rem;
+}
+
+.footercenter2 img{
+  width: 30px;
+  margin-top: 1rem;
+  margin-right: 0.3rem;
+}
+
+.footerbtn{
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 6px;
+  width: 35%;
+  font-weight: 600;
+  font-size: small;
+}
+
+.footerright img{
+  width: 90px;
+  margin-right: 1rem;
+}
+
+/* footer2 */
+
+.footer2{
+  background-color: #2d2d2d;
+}
+
+.copyright p{
+  font-size: 12px;
+}
+
+/* Owlcaro */
+
+.owl-theme{
+  margin-top: 5rem;
+}
+
+.owl-theme img{
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 100px;
+}
+
+.owl-theme img:hover{
+  border: 1px solid #f27a1a ;
+}
+
+.owl-theme a{
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.owl-theme a:hover{
+  color: #f27a1a;
+}
+
+
+
+
+
